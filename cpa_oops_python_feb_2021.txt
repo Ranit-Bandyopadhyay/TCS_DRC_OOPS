@@ -1,0 +1,83 @@
+BRIEF EXPLANATION OF THE QUESTION ASKED IN DRC/IRC 23/24TH FEB 2021
+python object - oriented programming question
+
+Create a class Player with below attributes
+
+playerName :(string type)
+playerCountry :(string type)
+playerAge :(int type)
+noOfMatches :(int type)
+noOfRuns :(int type)
+noOfWickets :(int type)
+
+Create a constructor which takes all the above attributes in the same sequence.
+
+Define another class Team with the below member functions
+
+getMinRuns:which takes list of player objects as i/p parameters and returns the player details
+ who scored Minimum runs
+
+getMaxWickets: which takes list of player objects as i/p and returns the player who took the
+most wickets
+
+Instructions to write the main function:
+
+a. You are required to write the main function yourself which takes above i/p and displays 
+o/p
+
+INPUT DETAILS:
+A) an integer which represents number of player objects
+
+B) next 6 lines of i/p represents specific details of one player one by one in each line
+
+PlayerName
+playerCountry
+playerAge 
+noOfMatches 
+noOfRuns
+noOfWickets
+
+C) the point b) repeats for the number of players entered in a)
+
+Sample testcase input:
+5
+sachin
+india
+40
+350
+15000
+120
+Klusnar
+south africa
+37
+270
+3000
+250
+dhoni
+india
+38
+345
+12000
+0
+ricky ponting
+australia
+42
+290
+11000
+3
+dravid
+india
+39
+320
+11200
+12
+
+
+sample testcase output:
+
+klusnar
+3000
+south africa
+klusnar 
+250
+south africa
